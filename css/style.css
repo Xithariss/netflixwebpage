@@ -1,0 +1,265 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('../img/netflix-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 16px;
+}
+
+.background_mask {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.55);
+}
+
+header {
+	display: flex;
+	height: 90px;
+	align-items: center;
+	width: 100%;
+}
+
+.banner_logo a {
+	margin-left: 33%;
+}
+
+.banner_logo img {
+	width: 166.5px;
+	height: 45px;
+}
+
+main {
+	width: 100%;
+	margin-bottom: 90px;
+}
+
+.form_login {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 60px 68px 40px;
+	width: 450px;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.form_login {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.form_login h1 {
+	color: #fff;
+	font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.section_inputs {
+	width: 100%;
+}
+
+.section_inputs input {
+	background-color: #333;
+	border-radius: 4px;
+	border: 0;
+	color: #fff;
+    height: 50px;
+    line-height: 50px;
+	padding: 16px 20px;
+	width: 100%;
+	margin-bottom: 16px;
+	font-size: 16px;
+}
+
+.section_button button {
+	border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+	margin: 24px 0 12px;
+	width: 100%;
+	padding: 16px;
+	background-color: #e50914;
+	color: #fff;
+	border: 0;
+}
+
+.section_button button:hover {
+	cursor: pointer;
+}
+
+.section_more_options {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section_remember {
+	display: inline-block;
+    margin-bottom: -5px;
+}
+
+.section_remember label {
+	color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.section_need_help a {
+	color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+	padding-top: 2px;
+	text-decoration: none;
+}
+
+.section_need_help a:hover {
+	text-decoration: underline;
+}
+
+.section_fb {
+	margin: 0 auto;
+	padding: 10px 68px 10px;
+	width: 450px;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.75);
+	display: flex;
+	align-items: center;
+}
+
+.section_fb div:hover {
+	cursor: pointer;
+}
+
+.div_align_items {
+	display: flex;
+	align-items: center;
+}
+
+.section_fb img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.section_fb span {
+	color: #737373;
+    font-size: 13px;
+	font-weight: 500;
+}
+
+.section_register {
+	margin: 0 auto;
+	padding: 10px 68px 10px;
+	width: 450px;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.75);
+	display: flex;
+	align-items: center;
+}
+
+.section_register span {
+	color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.section_register a {
+	color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+	margin-top: 16px;
+	text-decoration: none;
+}
+
+.section_register a:hover {
+	text-decoration: underline;
+}
+
+.section_notice {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	padding: 10px 68px 104px;
+	width: 450px;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.section_notice p {
+	margin-top: 11px;
+    font-size: 13px;
+	color: #8c8c8c;
+}
+
+.section_notice a {
+	color: #0071eb;
+	text-decoration: none;
+}
+
+.section_notice a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	padding: 0 0 20px;
+	width: auto;
+	background-color: rgba(0, 0, 0, 0.75);
+    font-size: 1em;
+	color: #757575;
+}
+
+.div_align_items_footer {
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 30px 0;
+}
+
+.section_doubt {
+	padding-bottom: 30px;
+}
+
+.section_more_links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section_more_links a {
+	display: block;
+	margin-bottom: 16px;
+	padding-right: 12px;
+	font-size: 13px;
+	text-decoration: none;
+	color:  #757575;
+}
+
+.section_more_links a:hover {
+	text-decoration: underline;
+}
+
+.section_question_cookies {
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+}
+
+.section_select_language {
+	margin: 20px auto 0;
+}
+
+.section_select_language select {
+	background-color: #000;
+    font-size: 16px;
+	border: 1px solid #333;
+	color: #737373;
+	line-height: 1.7;
+	padding: 12px;
+}
